@@ -111,7 +111,9 @@ const LoginForm = () => {
 
   return (
     <div className="w-full">
-      <h2 className="text-2xl font-normal text-black mb-4">Welcome back</h2>
+<h2 className="text-4xl font-normal text-center text-black mb-12 tracking-wide">
+  Welcome back
+</h2>
       <form className="space-y-3" onSubmit={handleLogin}>
         {error && (
           <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-2 rounded">

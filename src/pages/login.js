@@ -19,7 +19,7 @@ const LoginPage = () => {
   return (
     <div className="relative h-screen bg-custom-shadeGray">
       {/* Top Right Logo */}
-      <div className="absolute top-10 right-6 lef-100">
+      <div className="absolute top-10 right-6">
         <Logo
           logoImage="/assets/meetusvr_logo_login.png"
           logoText="/assets/meetusvr_logo_text.png"

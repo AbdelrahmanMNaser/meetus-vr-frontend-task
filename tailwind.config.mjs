@@ -9,12 +9,12 @@ export default {
     extend: {
       colors: {
         custom: {
-          gray: "#6A6770",
+          gray: "#4E4E50",
           shadeGray: "#616161",
         },
         background: "var(--background)",
         foreground: "var(--foreground)",
-      },
+      }
     },
   },
   plugins: [],
